@@ -14,7 +14,8 @@ services:
   txp:
     container_name: txp-web
     restart: always
-    build: textpattern/.
+    build: .
+    # image: garyritchie/docker-textpattern
     depends_on:
       - db
     ports:
