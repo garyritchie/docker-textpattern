@@ -1,0 +1,8 @@
+*.sublime*
+*.zip
+config.php
+Dockerfile
+makefile*
+notes.md
+php.ini
+textpattern*
